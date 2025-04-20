@@ -40,15 +40,15 @@ public class OrderAdapter extends BaseAdapter {
 
         if (view == null) {
             LayoutInflater inflater = LayoutInflater.from(context);
-            view = inflater.inflate(R.layout.test_order, parent, false);
+            view = inflater.inflate(R.layout.order_card, parent, false);
         }
 
-        TextView orderId = view.findViewById(R.id.productName);
-        TextView orderCost = view.findViewById(R.id.productPrice);
+        TextView orderId = view.findViewById(R.id.orderNumber);
+        TextView orderCost = view.findViewById(R.id.orderSum);
 
         Order order = ordersList.get(position);
 
-        orderId.setText(order.getId());
+        orderId.setText(String.valueOf(order.getId()));
         orderCost.setText("$" + order.getCost());
 
         return view;

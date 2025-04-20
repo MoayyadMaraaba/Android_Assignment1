@@ -72,10 +72,7 @@ public class MainActivity extends AppCompatActivity {
         products1.add(new Product(6,"Laser Sight",R.drawable.product6, "Laser Sight", 15, tags6,15));
 
 
-        editor.putString("Users", "");
-        editor.putString("Carts", "");
         editor.putString("Products", gson.toJson(products1));
-//        editor.putString("Orders", "");
 
         editor.commit();
     }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="#121212"
     android:backgroundTint="#121212"
@@ -9,21 +9,21 @@
 
     <TextView
         android:id="@+id/orderNumber"
-        android:layout_width="150dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Hello"
+        android:layout_weight="1"
         android:layout_marginStart="10dp"
         android:textColor="#EEEEEE"
         android:textSize="30sp" />
 
     <TextView
         android:id="@+id/orderSum"
-        android:layout_width="150dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:layout_marginStart="150dp"
-        android:text="Hello"
         android:textAlignment="center"
         android:textColor="#BBBBBB"
         android:textSize="26sp" />
 
-</androidx.cardview.widget.CardView>
+</androidx.appcompat.widget.LinearLayoutCompat>
