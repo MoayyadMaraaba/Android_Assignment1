@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Black Defense</string>
+    <string name="txtLogo">Black Defense</string>
+    <string name="InputName">Full Name</string>
+    <string name="Full_name">Full Name</string>
+    <string name="Password">Password</string>
+    <string name="button">Sign up</string>
+    <string name="Register_title">Welcome</string>
+    <string name="Login_title">Welcome Back</string>
+    <string name="have_an_account">Have An account ?</string>
+    <string name="login">Login</string>
+    <string name="black_defence">Black Defence</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="cart">Cart</string>
+    <string name="go">GO</string>
+    <string name="view_orders">View Orders</string>
+    <string name="orders">Orders</string>
+</resources>
